@@ -71,11 +71,9 @@ Detailed investigation report and evidence:
 
 ## MITRE ATT&CK Mapping
 
-Technique:
-T1110 - Brute Force
+Technique : T1110 - Brute Force
 
-Tactic:
-Credential Access
+Tactic : Credential Access
 
 ## Recommendations
 
