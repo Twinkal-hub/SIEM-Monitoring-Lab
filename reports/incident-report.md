@@ -4,16 +4,16 @@
 
 Analyze authentication logs to identify suspicious login activity and possible brute-force attacks.
 
+## Evidence Screenshot
+
+![SIEM Security Report](../screenshots/SIEM.png)
+
 ## Findings
 
 - Multiple failed login attempts were detected.
 - IP address 192.168.1.100 generated four failed authentication attempts.
 - Activity exceeded the detection threshold.
 
-  
-## Screenshot
-
-![SIEM Security Report](SIEM.png)
 
 ## Severity
 
