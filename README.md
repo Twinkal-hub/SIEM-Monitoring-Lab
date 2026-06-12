@@ -73,6 +73,14 @@ Detailed investigation report and evidence:
 - IP address 192.168.1.100 exceeded the threshold.
 - Activity may indicate a brute-force attack.
 
+## MITRE ATT&CK Mapping
+
+Technique:
+T1110 - Brute Force
+
+Tactic:
+Credential Access
+
 ## Recommendations
 
 - Implement account lockout policies.
