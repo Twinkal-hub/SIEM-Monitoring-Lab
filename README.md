@@ -26,7 +26,9 @@ SIEM-Monitoring-Lab
 │
 ├── reports
 │     └── incident-report.md
-│
+|
+├── screenshots
+│     └── SIEM.png
 ├── python-log-analyzer.py
 ├── README.md
 ├── LICENSE
