@@ -11,13 +11,21 @@ with open("logs/sample-auth.log", "r") as file:
 
 counter = Counter(ip_addresses)
 
-print("===== Security Analysis Report =====")
+print("=" * 40)
+print("        SIEM Security Report")
+print("=" * 40)
+
+print("\nFailed Login Attempts\n")
 
 for ip, count in counter.items():
-    print(f"{ip} -> {count} failed login attempts")
+    print(f"{ip} : {count}")
 
-print("\nPotential Brute Force Detection:")
+print("\nThreat Detection\n")
 
 for ip, count in counter.items():
     if count >= 3:
-        print(f"ALERT: {ip} exceeded threshold!")
+        print("[HIGH] Possible Brute Force Attack")
+        print(f"Source IP : {ip}")
+        print("Reason    : Failed login threshold exceeded")
+
+print("\n" + "=" * 40)
