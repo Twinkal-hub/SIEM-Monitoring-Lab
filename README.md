@@ -56,10 +56,6 @@ The Python script:
 - Detects suspicious behavior
 - Generates alerts when thresholds are exceeded
 
-## Sample Output
-
-![SIEM Output](screenshots/SIEM.png)
-
 
 ## Incident Report
 
