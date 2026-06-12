@@ -76,12 +76,11 @@ Reason    : Failed login threshold exceeded
 ========================================
 ```
 
-## Sample Output
+## Incident Report
 
-The following screenshot shows the SIEM log analysis and brute-force detection:
+Detailed investigation report and evidence:
 
-![SIEM Security Report](reports)
-
+📄 [View Incident Report](reports/incident-report.md)
 
 ## Findings
 
