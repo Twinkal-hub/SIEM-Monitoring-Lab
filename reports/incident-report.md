@@ -2,17 +2,31 @@
 
 ## Objective
 
-Analyze authentication logs to detect suspicious login activity and possible brute-force attacks.
+Analyze authentication logs to identify suspicious login activity and possible brute-force attacks.
 
 ## Findings
 
-- Multiple failed login attempts were identified.
+- Multiple failed login attempts were detected.
 - IP address 192.168.1.100 generated four failed authentication attempts.
-- Activity exceeded the predefined threshold.
+- Activity exceeded the detection threshold.
 
-## Risk Assessment
+## Severity
 
-The repeated failures indicate a possible brute-force attack against the SSH service.
+HIGH
+
+## Threat Type
+
+Brute Force Authentication Attack
+
+## Evidence
+
+```
+192.168.1.100 : 4
+
+[HIGH] Possible Brute Force Attack
+Source IP : 192.168.1.100
+Reason : Failed login threshold exceeded
+```
 
 ## Recommendations
 
@@ -23,4 +37,5 @@ The repeated failures indicate a possible brute-force attack against the SSH ser
 
 ## Conclusion
 
-The investigation identified suspicious authentication activity that may indicate brute-force attempts. Additional monitoring and preventive controls are recommended.
+The analysis identified suspicious authentication activity indicating a possible brute-force attack. Additional monitoring and preventive controls are recommended.
+
