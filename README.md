@@ -109,7 +109,5 @@ Reason    : Failed login threshold exceeded
 - Wazuh integration
 - Splunk dashboard integration
 
----
-
 **Author:** Twinkal Rana  
 **Focus Areas:** SOC Analyst | Cybersecurity Analyst | SIEM Monitoring | Blue Team
