@@ -80,7 +80,7 @@ Reason    : Failed login threshold exceeded
 
 The following screenshot shows the SIEM log analysis and brute-force detection:
 
-![SIEM Security Report](screenshots/SIEM.png)
+![SIEM Security Report](reports)
 
 
 ## Findings
