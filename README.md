@@ -58,25 +58,8 @@ The Python script:
 
 ## Sample Output
 
-```
-========================================
-        SIEM Security Report
-========================================
+![SIEM Output](screenshots/SIEM.png)
 
-Failed Login Attempts
-
-192.168.1.100 : 4
-192.168.1.101 : 1
-192.168.1.102 : 1
-
-Threat Detection
-
-[HIGH] Possible Brute Force Attack
-Source IP : 192.168.1.100
-Reason    : Failed login threshold exceeded
-
-========================================
-```
 
 ## Incident Report
 
