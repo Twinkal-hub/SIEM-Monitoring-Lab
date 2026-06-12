@@ -6,7 +6,7 @@ Analyze authentication logs to identify suspicious login activity and possible b
 
 ## Evidence Screenshot
 
-![SIEM Security Report](../screenshots/SIEM.png)
+![SIEM Security Report](../SIEM.png)
 
 ## Findings
 
