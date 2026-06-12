@@ -1,1 +1,6 @@
-
+Jun 10 10:01:25 server sshd[1234]: Failed password for root from 192.168.1.100
+Jun 10 10:02:11 server sshd[1235]: Failed password for admin from 192.168.1.100
+Jun 10 10:03:00 server sshd[1236]: Failed password for user from 192.168.1.101
+Jun 10 10:04:12 server sshd[1237]: Failed password for root from 192.168.1.100
+Jun 10 10:05:15 server sshd[1238]: Failed password for root from 192.168.1.100
+Jun 10 10:06:10 server sshd[1239]: Accepted password for admin from 192.168.1.102
