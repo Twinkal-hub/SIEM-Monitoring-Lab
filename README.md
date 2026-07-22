@@ -92,7 +92,7 @@ Tactic : Credential Access
 - Security Monitoring
 - SIEM Concepts
 - Cybersecurity Reporting
-
+ 
 ## Future Improvements
 
 - Export reports to CSV
